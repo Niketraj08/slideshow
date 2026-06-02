@@ -903,7 +903,7 @@ html,body{height:100%;width:100%;background:var(--bg);color:var(--ink);font-fami
   totalEl.textContent=String(slides.length).padStart(2,'0');
   menuTotalEl.textContent=String(slides.length).padStart(2,'0');
 
-  /* Inject in-flow footer into each slide (only visible on mobile via CSS) */
+
   slides.forEach(function(s){
     var inner=s.querySelector('.slide-inner');
     if(!inner)return;
